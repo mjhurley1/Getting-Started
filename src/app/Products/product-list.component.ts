@@ -69,10 +69,9 @@ export class ProductListComponent implements OnInit {
     this.showImage = !this.showImage;
     }
  
-   ngOnInit(): void {
-       console.log( 'In OnInit');
-       
-   }
+    ngOnInit(): void {
+        console.log( 'In OnInit');
+    }
 
 }
 
